@@ -1,6 +1,8 @@
 dustjs-helpers
 ==============
 
+This illustrate a way to add dustjs helpers using expressjs 4.
+
 how to use
 ----------
 
@@ -10,8 +12,6 @@ $ DEBUG=dustjs-helpers ./bin/www
 
 description
 -----------
-
-add helpers to dustjs expressjs 4
 
 Adding helpers to dustjs as template engine for expressjs was hard to fix... Here is a template to proceed...
 Thanks to https://github.com/chovy/express-template-demo/issues/5 [jacksleight](https://github.com/jacksleight "jacksleight") to "show me the light !" :-)
