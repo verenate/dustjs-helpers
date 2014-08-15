@@ -1,6 +1,7 @@
+// app.js
 var express = require('express'),
     logger = require('morgan'),
-    dust = require('dustjs-helpers'),
+    dust = require('dustjs-helpers'),   // require dustjs-helpers
     less = require('less-middleware'),
     path = require('path')
     ;
@@ -10,10 +11,10 @@ var app = express(),
 
 var routes = require('./routes');
 
-require('./src/dust/helpers');
+require('./src/dust/helpers');          // add your own helpers
 
-var engines = require('consolidate');
-app.engine('dust', engines.dust);
+var engines = require('consolidate');   // require consolidate
+app.engine('dust', engines.dust);       // define dust as template engine
 
 app.set('view engine', 'dust');
 app.set('views', __dirname + '/views');
