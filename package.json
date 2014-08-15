@@ -14,6 +14,7 @@
         "less-middleware": "1.0.x",
         "consolidate": "~0.10.0",
         "dustjs-linkedin": "2.0.x",
-        "dustjs-helpers":"1.2.x"
+        "dustjs-helpers":"1.2.x",
+        "marked":"0.3.x"
     }
 }

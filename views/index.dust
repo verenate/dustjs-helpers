@@ -6,4 +6,6 @@
 	<h1>{title}</h1>
 	<h3>check dustjs-helpers still work (must be 20) : {@math key="16" method="add" operand="4"/}</h3>
 	<p>MyHelper (must be 'myHelper rocks !') : {@myHelper /}</p>
+	<hr/>
+	<p>{@markdown file="data/content.md"/}</p>
 {/bodyContent}
