@@ -57,3 +57,23 @@ Second define your own templates in src/dust/helpers/index.js
 }(typeof exports !== 'undefined' ? module.exports = require('dustjs-helpers') : dust));
 ```
 The for loop allows to extend dustjs-helpers without this you will replace the helpers.
+
+helpers
+-------
+
+### myHelper
+
+useless helper for demo only. Print out 'myHelper rocks !'
+
+```dust
+    <p>MyHelper (must be 'myHelper rocks !') : {@myHelper /}</p>
+```
+
+### markdown
+
+Simple markdown helper. Read markdown from a param. and output markdown.
+
+```dust
+    <p>{@markdown file="data/content.md"/}</p>
+```
+
